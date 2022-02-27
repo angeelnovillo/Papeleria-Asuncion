@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelería Asunción</title>
+    <link href="../css/principal.css" rel="stylesheet" />
+    <link href="../img/logo.png" rel="icon" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body id="productosbody">
+    <header>
+        <div id="logotipo">
+            <a href="./index.html"><img src="../img/logo.png/" alt="logo" /></a>
+        </div>
+        <div class="titulo">
+            <h1>Papelería Asunción</h1>
+        </div>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="novedades.html">Novedades</a></li>
+                    <li><a href="conocenos.html">Conócenos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="btn">
+        <img src="../img/Equis.png" alt="equis" />
+    </div>
+    <nav class="sidebar">
+        <div class="texto">Productos</div>
+        <ul>
+            <li>
+                <a href="#" class="pap-btn">Papelería<img src="../img/Flecha.png" alt="Flecha" /></a>
+                <ul class="pap-show">
+                    <li><a href="./papeleria.html#material">Materiales</a></li>
+                    <li><a href="./papeleria.html#carp_arch">Carpetas y Archivadores</a></li>
+                    <li><a href="./papeleria.html#agendas">Agendas</a></li>
+                    <li><a href="./papeleria.html#cuadernos">Cuadernos</a></li>
+                    <li><a href="./papeleria.html#moch_estuch">Mochilas y Estuches</a></li>
+                    <li><a href="./papeleria.html#libr_lec">Libros de Lectura</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="ev-btn">Eventos<img src="../img/Flecha.png" alt="Flecha" /></a>
+                <ul class="ev-show">
+                    <li><a href="./eventos.html#comuniones">Comuniones</a></li>
+                    <li><a href="./eventos.html#bodas">Bodas</a></li>
+                    <li><a href="./eventos.html#bautizos">Bautizos</a></li>
+                    <li><a href="./eventos.html#cumpleaños">Tartas</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="./comestibles.html" class="co-btn">Comestibles</a>
+            </li>
+            <li>
+                <a href="./electronica.html" class="co-btn">Electrónica</a>
+            </li>
+        </ul>
+    </nav>
+    <script>
+        $('.btn').click(function () {
+            $(this).toggleClass("click");
+            $('.sidebar').toggleClass("show");
+        });
+        $('.pap-btn').click(function () {
+            $('nav ul .pap-show').toggleClass("show");
+            $('nav ul .first').toggleClass("rotate");
+        });
+        $('.ev-btn').click(function () {
+            $('nav ul .ev-show').toggleClass("show1");
+            $('nav ul .second').toggleClass("rotate");
+        });
+        $('.co-btn').click(function () {
+            $('nav ul .co-show').toggleClass("show2");
+            $('nav ul .third').toggleClass("rotate");
+        });
+        $('nav ul li').click(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    </script>
+        <section>
+            <article>
+                <div id="containerElec">
+                    <h2>Electrónica:</h2>
+                    <div id="caja1_elec">
+                        <img id="ap1_elec" src="../img/productos/nuevas_tec/PenDrive16Kioxia.png" alt="PenDrive16Kioxia" />
+                        <p id="txt_tema1_elec">Pendrive 16GB Kioxia</p>
+                    </div>
+                    <div id="caja2_elec">
+                        <img id="ap2_elec" src="../img/productos/nuevas_tec/PenDrive16Toshiba.png" alt="PenDrive16Toshiba" />
+                        <p id="txt_tema2_elec">Pendrive 16GB Toshiba</p>
+                    </div>
+                    <div id="caja3_elec">
+                        <img id="ap3_elec" src="../img/productos/nuevas_tec/PenDrive16TOT.png" alt="PenDrive16TOT" />
+                        <p id="txt_tema3_elec">Pendrive 16GB Tech One Tech</p>
+                    </div>
+                    <div id="caja4_elec">
+                        <img id="ap4_elec" src="../img/productos/nuevas_tec/PenDrive16TOT2.png" alt="PenDrive16TOT2" />
+                        <p id="txt_tema4_elec">Pendrive 16GB Tech One Tech</p>
+                    </div>
+                    <div id="caja5_elec">
+                        <img id="ap5_elec" src="../img/productos/nuevas_tec/PenDrive16TOT3.png" alt="PenDrive16TOT3" />
+                        <p id="txt_tema5_elec">Pendrive 16GB Tech One Tech</p>
+                    </div>
+                    <div id="caja6_elec">
+                        <img id="ap6_elec" src="../img/productos/nuevas_tec/PenDrive16TOT4.png" alt="PenDrive16TOT4" />
+                        <p id="txt_tema6_elec">Pendrive 16GB Tech One Tech</p>
+                    </div>
+                    <div id="caja7_elec">
+                        <img id="ap7_elec" src="../img/productos/nuevas_tec/PenDrive32MR.png" alt="PenDrive32MR" />
+                        <p id="txt_tema7_elec">Pendrive 32GB MediaRange</p>
+                    </div>
+                    <div id="caja8_elec">
+                        <img id="ap8_elec" src="../img/productos/nuevas_tec/TarjetaMemoria8MR.png" alt="TarjetaMemoria8MR" />
+                        <p id="txt_tema8_elec">Tarjeta Memoria 8GB MediaRange</p>
+                    </div>
+                    <div id="caja9_elec">
+                        <img id="ap9_elec" src="../img/productos/nuevas_tec/TarjetaMemoria16Sandisk.png" alt="TarjetaMemoria16Sandisk" />
+                        <p id="txt_tema9_elec">Tarjeta Memoria 16GB Sandisk</p>
+                    </div>
+                    <div id="caja10_elec">
+                        <img id="ap10_elec" src="../img/productos/nuevas_tec/TarjetaMemoria32Kings.png" alt="TarjetaMemoria32Kings" />
+                        <p id="txt_tema10_elec">Tarjeta Memoria 32GB Kingston</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    <footer>
+        <div class="izda">
+            <p>Contacto:</p>
+            <ul>
+                <li><img src="../img/tlf.png" /> 926 51 48 25</li>
+                <li><img src="../img/whatsapp.png" /> 634 58 52 48</li>
+                <li><img class="mail" src="../img/email.png" /> papeleria.asuncion@gmail.com</li>
+            </ul>
+        </div>
+        <div class="centro">
+            <img src="../img/alfiler.png" />C/ Santa Amalia 34, Tomelloso
+            <p id="ft_pq">Copyright &#169; 2022 Papelería Asunción, Todos los derechos reservados</p>
+        </div>
+        <div class="dcha">
+            <p>Síguenos:</p>
+            <ul>
+                <li><a href="https://es-es.facebook.com/pages/category/Bookstore/Papeleria-Asuncion-1394065157563977/"><img src="../img/fcbk.png" alt="facebook" class="fcbk"></a></li>
+                <li><a href="https://www.instagram.com/papeleria.asuncion/?hl=es"><img src="../img/ins.png" alt="instagram" class="ins"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
