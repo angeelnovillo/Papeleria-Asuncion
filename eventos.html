@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelería Asunción</title>
+    <link href="../css/principal.css" rel="stylesheet" />
+    <link href="../img/logo.png" rel="icon" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body id="productosbody">
+    <header>
+        <div id="logotipo">
+            <a href="./index.html"><img src="../img/logo.png/" alt="logo" /></a>
+        </div>
+        <div class="titulo">
+            <h1>Papelería Asunción</h1>
+        </div>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="novedades.html">Novedades</a></li>
+                    <li><a href="conocenos.html">Conócenos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="btn">
+        <img src="../img/Equis.png" alt="equis"/>
+    </div>
+    <nav class="sidebar">
+        <div class="texto">Productos</div>
+        <ul>
+            <li>
+                <a href="#" class="pap-btn">Papelería<img src="../img/Flecha.png" alt="Flecha" /></a>
+                <ul class="pap-show">
+                    <li><a href="./papeleria.html#material">Materiales</a></li>
+                    <li><a href="./papeleria.html#carp_arch">Carpetas y Archivadores</a></li>
+                    <li><a href="./papeleria.html#agendas">Agendas</a></li>
+                    <li><a href="./papeleria.html#cuadernos">Cuadernos</a></li>
+                    <li><a href="./papeleria.html#moch_estuch">Mochilas y Estuches</a></li>
+                    <li><a href="./papeleria.html#libr_lec">Libros de Lectura</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="ev-btn">Eventos<img src="../img/Flecha.png" alt="Flecha" /></a>
+                <ul class="ev-show">
+                    <li><a href="#comuniones">Comuniones</a></li>
+                    <li><a href="#bodas">Bodas</a></li>
+                    <li><a href="#bautizos">Bautizos</a></li>
+                    <li><a href="#cumpleaños">Tartas</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="./comestibles.html" class="co-btn">Comestibles</a>
+            </li>
+            <li>
+                <a href="./electronica.html" class="co-btn">Electrónica</a>
+            </li>
+        </ul>
+    </nav>
+    <script>
+        $('.btn').click(function () {
+            $(this).toggleClass("click");
+            $('.sidebar').toggleClass("show");
+        });
+        $('.pap-btn').click(function () {
+            $('nav ul .pap-show').toggleClass("show");
+            $('nav ul .first').toggleClass("rotate");
+        });
+        $('.ev-btn').click(function () {
+            $('nav ul .ev-show').toggleClass("show1");
+            $('nav ul .second').toggleClass("rotate");
+        });
+        $('.co-btn').click(function () {
+            $('nav ul .co-show').toggleClass("show2");
+            $('nav ul .third').toggleClass("rotate");
+        });
+        $('nav ul li').click(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    </script>
+        <section>
+            <article id="comuniones">
+                <div id="containerComu">
+                    <h2>Comuniones:</h2>
+                    <div id="caja1_ev">
+                        <img id="ap1_ev" src="../img/productos/obsequios/comuniones/LibroComunionHuellasChico.png" alt="arboles-de-huellas-para-comuniones" />
+                        <p id="txt_tema1_ev">Libro Huellas</p>
+                    </div>
+                    <div id="caja2_ev">
+                        <img id="ap2_ev" src="../img/productos/obsequios/comuniones/Billetero.png" alt="Billeteros" />
+                        <p id="txt_tema2_ev">Billeteros</p>
+                    </div>
+                    <div id="caja3_ev">
+                        <img id="ap3_ev" src="../img/productos/obsequios/comuniones/BoliChica.png" alt="BoliChica" />
+                        <p id="txt_tema3_ev">Obsequio Bolígrafo Niña</p>
+                    </div>
+                    <div id="caja4_ev">
+                        <img id="ap4_ev" src="../img/productos/obsequios/comuniones/BoliChico.png" alt="BoliChico" />
+                        <p id="txt_tema4_ev">Obsequio Bolígrafo Niño</p>
+                    </div>
+                    <div id="caja5_ev">
+                        <img id="ap5_ev" src="../img/productos/obsequios/comuniones/DiarioChica.png" alt="DiarioChica" />
+                        <p id="txt_tema5_ev">Diario Niña</p>
+                    </div>
+                    <div id="caja6_ev">
+                        <img id="ap6_ev" src="../img/productos/obsequios/comuniones/DiarioChica2.png" alt="DiarioChica" />
+                        <p id="txt_tema6_ev">Diario Niña</p>
+                    </div>
+                    <div id="caja7_ev">
+                        <img id="ap7_ev" src="../img/productos/obsequios/comuniones/DiarioChico.png" alt="DiarioChico" />
+                        <p id="txt_tema7_ev">Diario Niño</p>
+                    </div>
+                    <div id="caja8_ev">
+                        <img id="ap8_ev" src="../img/productos/obsequios/comuniones/DiarioChico2.png" alt="DiarioChico" />
+                        <p id="txt_tema8_ev">Diario Niño</p>
+                    </div>
+                    <div id="caja9_ev">
+                        <img id="ap9_ev" src="../img/productos/obsequios/comuniones/LibroComunionChico.png" alt="LibroComunionChico" />
+                        <p id="txt_tema9_ev">Libro Comunión Niño</p>
+                    </div>
+                    <div id="caja10_ev">
+                        <img id="ap10_ev" src="../img/productos/obsequios/comuniones/LibroComunionChica.png" alt="LibroComunionChica" />
+                        <p id="txt_tema10_ev">Libro Comunión Niña</p>
+                    </div>
+                    <div id="caja11_ev">
+                        <img id="ap11_ev" src="../img/productos/obsequios/comuniones/LibroComunionHuellaChico2.png" alt="LibroComunionHuellaChico2" />
+                        <p id="txt_tema11_ev">Libro Comunión Niño</p>
+                    </div>
+                    <div id="caja12_ev">
+                        <img id="ap12_ev" src="../img/productos/obsequios/comuniones/LibroComunionHuellasChica.png" alt="LibroComunionHuellasChica" />
+                        <p id="txt_tema12_ev">Libro Comunion Niña</p>
+                    </div>
+                    <div id="caja13_ev">
+                        <img id="ap13_ev" src="../img/productos/obsequios/comuniones/LibroFirmasChica.png" alt="LibroFirmasChica" />
+                        <p id="txt_tema13_ev">Libro Firmas Niña</p>
+                    </div>
+                    <div id="caja14_ev">
+                        <img id="ap14_ev" src="../img/productos/obsequios/comuniones/LibroFirmasChico.png" alt="LibroFirmasChico" />
+                        <p id="txt_tema14_ev">Libro Firmas Niño</p>
+                    </div>
+                    <div id="caja15_ev">
+                        <img id="ap15_ev" src="../img/productos/obsequios/comuniones/LibroMusical.png" alt="LibroMusical" />
+                        <p id="txt_tema15_ev">Libro Musical</p>
+                    </div>
+                    <div id="caja16_ev">
+                        <img id="ap16_ev" src="../img/productos/obsequios/comuniones/LibroMano.png" alt="LibroMano" />
+                        <p id="txt_tema16_ev">Libro de Mano</p>
+                    </div>
+                    <div id="caja17_ev">
+                        <img id="ap17_ev" src="../img/productos/obsequios/comuniones/MarcoHuellasA3Chico.png" alt="MarcoHuellasA3Chico" />
+                        <p id="txt_tema17_ev">Marco Huellas A3 Niño</p>
+                    </div>
+                    <div id="caja18_ev">
+                        <img id="ap18_ev" src="../img/productos/obsequios/comuniones/MarcoHuellasChica.png" alt="MarcoHuellasChica" />
+                        <p id="txt_tema18_ev">Marco Huellas Niña</p>
+                    </div>
+                    <div id="caja19_ev">
+                        <img id="ap19_ev" src="../img/productos/obsequios/comuniones/DiariosComunion.png" alt="DiariosComunion" />
+                        <p id="txt_tema19_ev">Diarios Comunión</p>
+                    </div>
+                    <div id="caja20_ev">
+                        <img id="ap20_ev" src="../img/productos/obsequios/comuniones/Rosario.png" alt="Rosario" />
+                        <p id="txt_tema20_ev">Rosario</p>
+                    </div>
+                    <div id="caja21_ev">
+                        <img id="ap21_ev" src="../img/productos/obsequios/comuniones/FiguraChica.png" alt="FiguraChica" />
+                        <p id="txt_tema21_ev">Figura Comunión Niña</p>
+                    </div>
+                    <div id="caja22_ev">
+                        <img id="ap22_ev" src="../img/productos/obsequios/comuniones/FiguraChico.png" alt="FiguraChico" />
+                        <p id="txt_tema22_ev">Figura Comunión Niño</p>
+                    </div>
+                    <div id="caja23_ev">
+                        <img id="ap23_ev" src="../img/productos/obsequios/comuniones/PinzaPortafotosChica.png" alt="PinzaPortafotosChica" />
+                        <p id="txt_tema23_ev">Obsequio Pinza Portafotos Niña</p>
+                    </div>
+                    <div id="caja24_ev">
+                        <img id="ap24_ev" src="../img/productos/obsequios/comuniones/PinzaPortafotosChico.png" alt="PinzaPortafotosChica" />
+                        <p id="txt_tema24_ev">Obsequio Pinza Portafotos Niño</p>
+                    </div>
+                    <div id="caja25_ev">
+                        <img id="ap25_ev" src="../img/productos/obsequios/comuniones/PortafotosChica.png" alt="PortafotosChica" />
+                        <p id="txt_tema25_ev">Portafotos Niña</p>
+                    </div>
+                    <div id="caja26_ev">
+                        <img id="ap26_ev" src="../img/productos/obsequios/comuniones/PortafotosChico.png" alt="PortafotosChico" />
+                        <p id="txt_tema26_ev">Portafotos Niño</p>
+                    </div>
+                    <div id="caja27_ev">
+                        <img id="ap27_ev" src="../img/productos/obsequios/comuniones/TazaChica.png" alt="TazaChica" />
+                        <p id="txt_tema27_ev">Taza Niña</p>
+                    </div>
+                    <div id="caja28_ev">
+                        <img id="ap28_ev" src="../img/productos/obsequios/comuniones/TazaChico.png" alt="TazaChico" />
+                        <p id="txt_tema28_ev">Taza Niño</p>
+                    </div>
+                    <div id="caja29_ev">
+                        <img id="ap29_ev" src="../img/productos/obsequios/comuniones/TazaChico2.png" alt="TazaChico2" />
+                        <p id="txt_tema29_ev">Taza Niño</p>
+                    </div>
+                    <div id="caja30_ev">
+                        <img id="ap30_ev" src="../img/productos/obsequios/comuniones/TazaChica2.png" alt="TazaChica2" />
+                        <p id="txt_tema30_ev">Taza Niña</p>
+                    </div>
+                    <div id="caja31_ev">
+                        <img id="ap31_ev" src="../img/productos/obsequios/comuniones/TazaChica3.png" alt="TazaChica3" />
+                        <p id="txt_tema31_ev">Taza Niña</p>
+                    </div>
+                    <div id="caja32_ev">
+                        <img id="ap32_ev" src="../img/productos/obsequios/comuniones/Vela.png" alt="Vela" />
+                        <p id="txt_tema32_ev">Obsequio Vela</p>
+                    </div>
+                    <div id="caja33_ev">
+                        <img id="ap33_ev" src="../img/productos/obsequios/comuniones/BolsaBlancaMedChica.png" alt="BolsaBlancaMedChica" />
+                        <p id="txt_tema33_ev">Bolsa Blanca Niña</p>
+                    </div>
+                    <div id="caja34_ev">
+                        <img id="ap34_ev" src="../img/productos/obsequios/comuniones/BolsaBlancaMedChico.png" alt="BolsaBlancaMedChica" />
+                        <p id="txt_tema34_ev">Bolsa Blanca Niño</p>
+                    </div>
+                    <div id="caja35_ev">
+                        <img id="ap35_ev" src="../img/productos/obsequios/comuniones/BolsaChicaGr.png" alt="BolsaChicaGr" />
+                        <p id="txt_tema35_ev">Bolsa Niña Grande</p>
+                    </div>
+                    <div id="caja36_ev">
+                        <img id="ap36_ev" src="../img/productos/obsequios/comuniones/BolsaChicoGr.png" alt="BolsaChicoGr" />
+                        <p id="txt_tema26_ev">Bolsa Niño Grande</p>
+                    </div>
+                    <div id="caja37_ev">
+                        <img id="ap37_ev" src="../img/productos/obsequios/comuniones/BolsaMedChica.png" alt="BolsaMedChica" />
+                        <p id="txt_tema37_ev">Bolsa Niña</p>
+                    </div>
+                    <div id="caja38_ev">
+                        <img id="ap38_ev" src="../img/productos/obsequios/comuniones/BolsaMedChico.png" alt="BolsaMedChico" />
+                        <p id="txt_tema38_ev">Bolsa Niño</p>
+                    </div>
+                    <div id="caja39_ev">
+                        <img id="ap39_ev" src="../img/productos/obsequios/comuniones/MochilaPetate.png" alt="MochilaPetate" />
+                        <p id="txt_tema39_ev">Mochila de Cuerdas</p>
+                    </div>
+                    <div id="caja40_ev">
+                        <img id="ap40_ev" src="../img/productos/obsequios/comuniones/MochilaPetate2.png" alt="MochilaPetate2" />
+                        <p id="txt_tema40_ev">Mochila de Cuerdas</p>
+                    </div>
+                    <div id="caja41_ev">
+                        <img id="ap41_ev" src="../img/productos/obsequios/comuniones/MochillaCuerdaEmoji.png" alt="MochillaCuerdaEmoji" />
+                        <p id="txt_tema41_ev">Mochila de Cuerdas Emojis</p>
+                    </div>
+                    <a class="catalogoEv" href="./catalogo.html">Catálogo 2022</a>
+                </div>
+            </article>
+            <article id="bodas">
+                <div id="containerBoda">
+                    <h2>Bodas:</h2>
+                    <div id="caja42_ev">
+                        <img id="ap42_ev" src="../img/productos/obsequios/bodas/AbanicosMadera.png" alt="AbanicosMadera" />
+                        <p id="txt_tema42_ev">Abanico de Madera</p>
+                    </div>
+                    <div id="caja43_ev">
+                        <img id="ap43_ev" src="../img/productos/obsequios/bodas/Abrebotellas.png" alt="Abrebotellas" />
+                        <p id="txt_tema43_ev">Abrebotellas</p>
+                    </div>
+                    <div id="caja44_ev">
+                        <img id="ap44_ev" src="../img/productos/obsequios/bodas/Boligrafo.png" alt="Boligrafo" />
+                        <p id="txt_tema44_ev">Bolígrafo y Linterna</p>
+                    </div>
+                    <div id="caja45_ev">
+                        <img id="ap45_ev" src="../img/productos/obsequios/bodas/BoliLlavero.png" alt="BoliLlavero" />
+                        <p id="txt_tema45_ev">Bolígrafo y Llavero</p>
+                    </div>
+                    <div id="caja46_ev">
+                        <img id="ap46_ev" src="../img/productos/obsequios/bodas/Lavero.png" alt="Lavero" />
+                        <p id="txt_tema46_ev">Llavero de Cuero</p>
+                    </div>
+                    <div id="caja47_ev">
+                        <img id="ap47_ev" src="../img/productos/obsequios/bodas/PetacaMetal.png" alt="PetacaMetal" />
+                        <p id="txt_tema47_ev">Petaca de Metal</p>
+                    </div>
+                    <div id="caja48_ev">
+                        <img id="ap48_ev" src="../img/productos/obsequios/bodas/PuntoLibro.png" alt="PuntoLibro" />
+                        <p id="txt_tema48_ev">Marcapáginas</p>
+                    </div>
+                    <div id="caja49_ev">
+                        <img id="ap49_ev" src="../img/productos/obsequios/bodas/Llavero2.png" alt="Llavero2" />
+                        <p id="txt_tema49_ev">Llavero</p>
+                    </div>
+                    <a class="catalogoEv" href="./catalogo.html">Catálogo 2022</a>
+                </div>
+            </article>
+            <article id="bautizos">
+                <div id="containerBau">
+                    <h2>Bautizos:</h2>
+                    <div id="caja50_ev">
+                        <img id="ap50_ev" src="../img/productos/obsequios/bautizos/PortafotosChico.png" alt="PortafotosChico" />
+                        <p id="txt_tema50_ev">Portafotos Bautizo Niño</p>
+                    </div>
+                    <div id="caja51_ev">
+                        <img id="ap51_ev" src="../img/productos/obsequios/bautizos/PortafotosChica.png" alt="PortafotosChica" />
+                        <p id="txt_tema51_ev">Portafotos Bautizo Niña</p>
+                    </div>
+                    <div id="caja52_ev">
+                        <img id="ap52_ev" src="../img/productos/obsequios/bautizos/FiguraCigueñaChico.png" alt="FiguraCigueñaChico" />
+                        <p id="txt_tema52_ev">Figura Bautizo Niño</p>
+                    </div>
+                    <div id="caja53_ev">
+                        <img id="ap53_ev" src="../img/productos/obsequios/bautizos/FiguraCigueñaChica.png" alt="FiguraCigueñaChica" />
+                        <p id="txt_tema53_ev">Figura Bautizo Niña</p>
+                    </div>
+                    <div id="caja54_ev">
+                        <img id="ap54_ev" src="../img/productos/obsequios/bautizos/FiguraBautizoChica.png" alt="FiguraBautizoChica" />
+                        <p id="txt_tema54_ev">Figura Bautizo Niña</p>
+                    </div>
+                    <div id="caja55_ev">
+                        <img id="ap55_ev" src="../img/productos/obsequios/bautizos/FiguraBautizoChico.png" alt="FiguraBautizoChico" />
+                        <p id="txt_tema55_ev">Figura Bautizo Niño</p>
+                    </div>
+                    <a class="catalogoEv" href="./catalogo.html">Catálogo 2022</a>
+                </div>
+            </article>
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2"></script>
+            <script type="text/javascript">
+                jQuery(function () {
+                    var fotitoActual = 0,
+                        elementos = jQuery('.superslider li'),
+                        cantidadElementos = elementos.length;
+                    function rularSlides() {
+                        var cogerActual = jQuery('.superslider li').eq(fotitoActual);
+                        elementos.hide();
+                        cogerActual.css('display', 'inline-block');
+                    }
+                    var autoSlide = setInterval(function () {
+                        fotitoActual += 1;
+                        if (fotitoActual > cantidadElementos - 1) {
+                            fotitoActual = 0;
+                        }
+                        rularSlides();
+                    }, 3000);
+                });
+            </script>
+            <article id="cumpleaños">
+                <h2 id="tartas">Tartas:</h2>
+                <div id="containerTartas">
+                    <ul class="superslider">
+                        <li style="display:inline-block;"><img src="../img/productos/cumpleaños/Capiruchos.png" alt="Capiruchos" /></li>
+                        <li><img src="../img/productos/cumpleaños/ChucheriasEventos.png" alt="ChucheriasEventos" /></li>
+                        <li><img src="../img/productos/cumpleaños/TartaBcn.png" alt="TartaBcn" /></li>
+                        <li><img src="../img/productos/cumpleaños/TartaBcn2.png" alt="TartaBcn" /></li>
+                        <li><img src="../img/productos/cumpleaños/TartaBcn3.png" alt="TartaBcn" /></li>
+                        <li><img src="../img/productos/cumpleaños/TartaComunion.png" alt="TartaComunion" /></li>
+                        <li><img src="../img/productos/cumpleaños/TartaComunion2.png" alt="TartaComunion" /></li>
+                        <li><img src="../img/productos/cumpleaños/TartaRM.png" alt="TartaRM" /></li>
+                        <li><img src="../img/productos/cumpleaños/TartaRM2.png" alt="TartaRM" /></li>
+                        <li><img src="../img/productos/cumpleaños/TartaRM3.png" alt="TartaRM" /></li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    <footer>
+        <div class="izda">
+            <p>Contacto:</p>
+            <ul>
+                <li><img src="../img/tlf.png" /> 926 51 48 25</li>
+                <li><img src="../img/whatsapp.png" /> 634 58 52 48</li>
+                <li><img class="mail" src="../img/email.png" /> papeleria.asuncion@gmail.com</li>
+            </ul>
+        </div>
+        <div class="centro">
+            <img src="../img/alfiler.png" />C/ Santa Amalia 34, Tomelloso
+            <p id="ft_pq">Copyright &#169; 2022 Papelería Asunción, Todos los derechos reservados</p>
+        </div>
+        <div class="dcha">
+            <p>Síguenos:</p>
+            <ul>
+                <li><a href="https://es-es.facebook.com/pages/category/Bookstore/Papeleria-Asuncion-1394065157563977/"><img src="../img/fcbk.png" alt="facebook" class="fcbk"></a></li>
+                <li><a href="https://www.instagram.com/papeleria.asuncion/?hl=es"><img src="../img/ins.png" alt="instagram" class="ins"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
