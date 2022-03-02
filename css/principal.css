@@ -840,7 +840,7 @@ label {
         margin-right: 10%;
         margin-top: 2%;
         grid-template-columns: 24% 24% 24% 24%;
-        grid-template-rows: repeat(40, 1fr);
+        grid-template-rows: repeat(40,1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -1219,7 +1219,7 @@ label {
         margin-top: 1.4%;
     }
     #ap52_pap {
-        width: 62%;
+        width: 82.5%;
         margin-top: 0;
     }
     #txt_tema52_pap {
@@ -1979,6 +1979,13 @@ label {
     }
     #txt_tema158_pap {
         margin-top: 1.4%;
+    }
+    #ap265_pap {
+        width: 59.5%;
+        margin-top: 3%;
+    }
+    #txt_tema265_pap {
+        margin-top: 1%;
     }
     /*-----------------CARPETAS Y ARCHIVADORES-------------------*/
     #containerCarp {
@@ -4037,7 +4044,7 @@ label {
         margin-left: 7%;
         margin-top: 2%;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(53, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -4278,7 +4285,7 @@ label {
         margin-top: 1.4%;
     }
     #ap33_pap {
-        width: 55%;
+        width: 61%;
         margin-top: 0;
     }
     #txt_tema33_pap {
@@ -4413,7 +4420,7 @@ label {
         margin-top: 1.4%;
     }
     #ap52_pap {
-        width: 62%;
+        width: 82.5%;
         margin-top: 0;
     }
     #txt_tema52_pap {
@@ -4553,7 +4560,7 @@ label {
         margin-top: 1.4%;
     }
     #ap72_pap {
-        width: 66%;
+        width: 73%;
         margin-top: 0;
     }
     #txt_tema72_pap {
@@ -5168,13 +5175,20 @@ label {
     #txt_tema158_pap {
         margin-top: 1.4%;
     }
+    #ap265_pap {
+        width: 59.5%;
+        margin-top: 3%;
+    }
+    #txt_tema265_pap {
+        margin-top: 1%;
+    }
     /*-----------------CARPETAS Y ARCHIVADORES-------------------*/
     #containerCarp {
         display: grid;
         margin-left: 7%;
         margin-top: 2%;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(7, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -5339,7 +5353,7 @@ label {
         margin-left: 7%;
         margin-top: 2%;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -5383,7 +5397,7 @@ label {
         margin-left: 7%;
         margin-top: 2%;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(12, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -5657,7 +5671,7 @@ label {
         margin-left: 7%;
         margin-top: 2%;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(14, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -5963,7 +5977,7 @@ label {
         margin-top: 2%;
         margin-bottom: 5%;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -6042,7 +6056,7 @@ label {
         margin-left: 7%;
         margin-top: 2%;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(15, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -6363,7 +6377,7 @@ label {
         margin-right: 10%;
         margin-top: 0;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -6450,7 +6464,7 @@ label {
         margin-right: 10%;
         margin-top: 0;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -6497,7 +6511,7 @@ label {
     }
     #ap53_ev {
         width: 82%;
-        margin-top: -25%;
+        margin-top: -15%;
     }
     #txt_tema53_ev {
         margin-top: 1.4%;
@@ -6506,7 +6520,7 @@ label {
         grid-column: 2/3;
     }
     #ap54_ev {
-        width: 57%;
+        width: 67%;
         margin-top: 0%;
     }
     #txt_tema54_ev {
@@ -6516,7 +6530,7 @@ label {
         grid-column: 3/4;
     }
     #ap55_ev {
-        width: 57%;
+        width: 67%;
         margin-top: 0;
     }
     #txt_tema55_ev {
@@ -6561,7 +6575,7 @@ label {
         margin-right: 10%;
         margin-top: 10%;
         grid-template-columns: 28.5% 28.5% 28.5%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -6578,53 +6592,32 @@ label {
         width:100%;
     }
     #ap1_elec {
-        width: 57%;
-    }
-    #txt_tema1_elec {
-        margin-top: 1.4%;
-    }
-    #caja1_elec {
-        margin-top: -25%;
-    }
-    #ap1_elec {
-        width: 57%;
+        width: 72.5%;
         margin-top: 0;
     }
     #txt_tema1_elec {
         margin-top: 1.4%;
     }
-    #caja2_elec {
-        margin-top: -25%;
-    }
     #ap2_elec {
-        width: 41.8%;
+        width: 53%;
         margin-top: 0;
     }
     #txt_tema2_elec {
         margin-top: 1.4%;
     }
-    #caja3_elec {
-        margin-top: -25%;
-    }
     #ap3_elec {
-        width: 49.3%;
+        width: 62%;
         margin-top: 0;
     }
     #txt_tema3_elec {
         margin-top: 1.4%;
     }
-    #caja4_elec {
-        margin-top: -30%;
-    }
     #ap4_elec {
-        width: 74.8%;
+        width: 74.5%;
         margin-top: 0;
     }
     #txt_tema4_elec {
         margin-top: 1.4%;
-    }
-    #caja5_elec {
-        margin-top: -30%;
     }
     #ap5_elec {
         width: 56.7%;
@@ -6633,9 +6626,6 @@ label {
     #txt_tema5_elec {
         margin-top: 1.4%;
     }
-    #caja6_elec {
-        margin-top: -30%;
-    }
     #ap6_elec {
         width: 56.7%;
         margin-top: 0;
@@ -6643,31 +6633,22 @@ label {
     #txt_tema6_elec {
         margin-top: 1.4%;
     }
-    #caja7_elec {
-        margin-top: -30%;
-    }
     #ap7_elec {
-        width: 34.2%;
+        width: 37%;
         margin-top: 0;
     }
     #txt_tema7_elec {
         margin-top: 1.4%;
     }
-    #caja8_elec {
-        margin-top: -30%;
-    }
     #ap8_elec {
-        width: 47.8%;
+        width: 52%;
         margin-top: 0;
     }
     #txt_tema8_elec {
         margin-top: 1.4%;
     }
-    #caja9_elec {
-        margin-top: -33%;
-    }
     #ap9_elec {
-        width: 43.5%;
+        width: 44.5%;
         margin-top: 0;
     }
     #txt_tema9_elec {
@@ -6675,10 +6656,9 @@ label {
     }
     #caja10_elec {
         grid-column: 2/3;
-        margin-top: -15%;
     }
     #ap10_elec {
-        width: 60%;
+        width: 70%;
         margin-top: 0;
     }
     #txt_tema10_elec {
@@ -6738,13 +6718,6 @@ label {
         width: 90%;
         margin-left: 5%;
         margin-top: 20%;
-        grid-template-columns: 80%;
-        grid-template-rows: repeat(auto, 1fr);
-        grid-gap: 1.2em;
-        grid-column-gap: 1.5em;
-        grid-auto-rows: 200px;
-        justify-content: center;
-        align-items: center;
     }
     #sprayNov {
         display: grid;
@@ -6815,7 +6788,7 @@ label {
         padding: 1%;
     }
 }
-@media (min-width: 300px) and (max-width:639px) {
+@media (min-width: 340px) and (max-width:639px) {
     /*-----------------HEADER-------------------*/
     header {
         display: grid;
@@ -6827,7 +6800,7 @@ label {
         max-height: 14%;
     }
     .titulo h1{
-        font-size:2.3em;
+        font-size:2.2em;
     }
     /*-----------------MENU-------------------*/
     #menu {
@@ -6857,8 +6830,8 @@ label {
     #logotipo img{
         margin-top:7%;
         margin-left:7%;
-        min-width:80px;
-        max-width:80px;
+        min-width:70px;
+        max-width:70px;
     }
     /*-----------------SIDEBAR-------------------*/
     .btn {
@@ -6940,7 +6913,7 @@ label {
         grid-auto-rows: 1%;
     }
     #containerProd div{
-        font-size:1em;
+        font-size:0.8em;
     }
     #containerProd div {
         padding: 0.3rem 0.3rem 0.3rem 0.3rem;
@@ -6997,7 +6970,7 @@ label {
         margin-top: 22%;
         margin-bottom: 3%;
         grid-template-columns: 47% 47%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(9, 1fr);
         grid-gap: 1em;
         grid-auto-rows: 100px;
     }
@@ -7094,7 +7067,7 @@ label {
         margin-left: 4%;
         margin-top: 30%;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(79, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -7343,7 +7316,7 @@ label {
         margin-top: 2.3%;
     }
     #ap34_pap {
-        width: 81%;
+        width: 73%;
         margin-top: 0;
     }
     #txt_tema34_pap {
@@ -7471,7 +7444,7 @@ label {
         margin-top: 1.4%;
     }
     #ap52_pap {
-        width: 62%;
+        width: 82.5%;
         margin-top: 0;
     }
     #txt_tema52_pap {
@@ -7611,7 +7584,7 @@ label {
         margin-top: 1.4%;
     }
     #ap72_pap {
-        width: 66%;
+        width: 73%;
         margin-top: 0;
     }
     #txt_tema72_pap {
@@ -8226,6 +8199,13 @@ label {
     #txt_tema158_pap {
         margin-top: 1.4%;
     }
+    #ap265_pap {
+        width: 59.5%;
+        margin-top: 3%;
+    }
+    #txt_tema265_pap {
+        margin-top: 1%;
+    }
     /*-----------------CARPETAS Y ARCHIVADORES-------------------*/
     #containerCarp {
         display: grid;
@@ -8233,7 +8213,7 @@ label {
         margin-left: 4%;
         margin-top: 2%;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(10, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -8400,7 +8380,7 @@ label {
         margin-left: 4%;
         margin-top: 2%;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -8445,7 +8425,7 @@ label {
         margin-left: 4%;
         margin-top: 2%;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(18, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -8720,7 +8700,7 @@ label {
         margin-left: 4%;
         margin-top: 2%;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(20, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -9027,7 +9007,7 @@ label {
         margin-top: 2%;
         margin-bottom: 5%;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -9107,7 +9087,7 @@ label {
         margin-left: 4%;
         margin-top: 30%;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(22, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -9425,7 +9405,7 @@ label {
         width: 95%;
         margin-left: 4%;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -9511,7 +9491,7 @@ label {
         margin-left: 4%;
         margin-top: 0;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -9537,28 +9517,24 @@ label {
     }
     #ap50_ev {
         width: 75%;
-        margin-top: -25%;
     }
     #txt_tema50_ev {
         margin-top: 1.4%;
     }
     #ap51_ev {
         width: 75%;
-        margin-top: -25%;
     }
     #txt_tema51_ev {
         margin-top: 1.4%;
     }
     #ap52_ev {
         width: 75%;
-        margin-top: -25%;
     }
     #txt_tema52_ev {
         margin-top: 1.4%;
     }
     #ap53_ev {
         width: 75%;
-        margin-top: -25%;
     }
     #txt_tema53_ev {
         margin-top: 1.4%;
@@ -9577,7 +9553,7 @@ label {
     #txt_tema55_ev {
         margin-top: 1.4%;
     }
-    /*------------CONTAINER CUMPLEA�OS--------------*/
+    /*------------CONTAINER CUMPLEANIOS--------------*/
     .superslider li {
         width: 100%;
         display: none;
@@ -9607,7 +9583,7 @@ label {
         margin-left: 4%;
         margin-top: 30%;
         grid-template-columns: 45% 45%;
-        grid-template-rows: repeat(auto, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-gap: 1.2em;
         grid-column-gap: 1.5em;
         grid-auto-rows: 200px;
@@ -9623,26 +9599,11 @@ label {
     #containerElec div {
         font-size:0.9em;
     }
-    #caja1_elec {
-        margin-top: -30%;
-    }
     #ap1_elec {
         width: 57%;
     }
     #txt_tema1_elec {
         margin-top: 1.4%;
-    }
-    #caja1_elec {
-        margin-top: -40%;
-    }
-    #ap1_elec {
-        width: 57%;
-    }
-    #txt_tema1_elec {
-        margin-top: 1.4%;
-    }
-    #caja2_elec {
-        margin-top: -40%;
     }
     #ap2_elec {
         width: 41.8%;
@@ -9651,18 +9612,12 @@ label {
     #txt_tema2_elec {
         margin-top: 1.4%;
     }
-    #caja3_elec {
-        margin-top: -40%;
-    }
     #ap3_elec {
         width: 49.3%;
         margin-top: 0;
     }
     #txt_tema3_elec {
         margin-top: 1.4%;
-    }
-    #caja4_elec {
-        margin-top: -40%;
     }
     #ap4_elec {
         width: 75%;
@@ -9671,17 +9626,11 @@ label {
     #txt_tema4_elec {
         margin-top: 1.4%;
     }
-    #caja5_elec {
-        margin-top: -30%;
-    }
     #ap5_elec {
         width: 56.7%;
     }
     #txt_tema5_elec {
         margin-top: 1.4%;
-    }
-    #caja6_elec {
-        margin-top: -30%;
     }
     #ap6_elec {
         width: 56.7%;
@@ -9689,17 +9638,11 @@ label {
     #txt_tema6_elec {
         margin-top: 1.4%;
     }
-    #caja7_elec {
-        margin-top: -30%;
-    }
     #ap7_elec {
         width: 34.2%;
     }
     #txt_tema7_elec {
         margin-top: 1.4%;
-    }
-    #caja8_elec {
-        margin-top: -30%;
     }
     #ap8_elec {
         width: 47.8%;
@@ -9707,17 +9650,11 @@ label {
     #txt_tema8_elec {
         margin-top: 1.4%;
     }
-    #caja9_elec {
-        margin-top: -33%;
-    }
     #ap9_elec {
         width: 43.5%;
     }
     #txt_tema9_elec {
         margin-top: 1.4%;
-    }
-    #caja10_elec {
-        margin-top: -33%;
     }
     #ap10_elec {
         width: 60%;
@@ -9778,12 +9715,6 @@ label {
         width: 90%;
         margin-left: 5%;
         margin-top: 35%;
-        grid-template-columns: 80%;
-        grid-template-rows: repeat(auto, 1fr);
-        grid-gap: 1.2em;
-        grid-column-gap: 1.5em;
-        grid-auto-rows: 200px;
-        justify-content: center;
     }
     #sprayNov {
         display: grid;
